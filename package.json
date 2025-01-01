@@ -1,6 +1,9 @@
 {
   "name": "chessboard-js",
   "version": "1.0.0-alpha.0",
+  "dependencies": {
+    "chess.js": "1.0.0-beta.8"
+  },
   "description": "Playable chessboard displayer",
   "main": "chessboard.js",
   "type": "module",
