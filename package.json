@@ -1,0 +1,39 @@
+{
+  "name": "chessboard-js",
+  "version": "1.0.0-alpha.0",
+  "description": "Playable chessboard displayer",
+  "main": "chessboard.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khoeckman/chessboard-js.git"
+  },
+  "keywords": [
+    "chess",
+    "chess.js",
+    "chess-js",
+    "chessboard",
+    "chess-board",
+    "chessboard-js",
+    "board",
+    "front-end",
+    "frontend",
+    "interactive",
+    "interaction",
+    "web",
+    "webdesign",
+    "web-design",
+    "javascript",
+    "js",
+    "ecmascript",
+    "module",
+    "html5",
+    "html"
+  ],
+  "author": "Kyle Hoeckman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Khoeckman/chessboard-js/issues"
+  },
+  "homepage": "http://kylehoeckman.great-site.net/"
+}
