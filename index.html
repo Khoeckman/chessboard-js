@@ -5,6 +5,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <script src="./initChessboard.mjs" type="module"></script>
     <style>
         html {
             background-color: #000;
@@ -13,24 +14,18 @@
         #chessboard {
             background-color: #333;
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 40rem;
-            height: 40rem;
+            top: 50%;
+            left: 50%;
+            width: min(75vw, 75vh);
+            height: min(75vw, 75vh);
+            transform: translate(-50%, -50%);
             z-index: -1;
         }
     </style>
 </head>
 
 <body>
-    <div id="chessboard"></div>
-
-    <script src="./chessboard.js"></script>
-    <script>
-        const selector = '#chessboard'
-        const options = {}
-        new ChessBoard(selector, options)
-    </script>
+    <canvas id="chessboard"></canvas>
 </body>
 
 </html>
